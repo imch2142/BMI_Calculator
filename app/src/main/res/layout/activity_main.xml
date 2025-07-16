@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_purple">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="BMI"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+
+        android:textAlignment="center"
+        android:textSize="50dp" />
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Height"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:hint="Enter your height"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Weight"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:hint="Enter your weight"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calcul"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
+
+
